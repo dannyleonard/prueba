@@ -14,7 +14,7 @@ jobs:
         # You may pin to the exact commit or the version.
         uses: IBM/cloudfoundry-deploy@master
         with:
-          IBM_CLOUD_API_KEY: ${{ secrets.ApiKey-02911c96-5cb9-4282-9370-ea95dd449fa8 }}
-          IBM_CLOUD_CF_API: ${{ secrets.api.us-south.cf.cloud.ibm.com }}
-          IBM_CLOUD_CF_ORG: ${{ secrets.runningbot }}
-          IBM_CLOUD_CF_SPACE: ${{ secrets.web }}
+          IBM_CLOUD_API_KEY: ${{ secrets.APIKEY }}
+          IBM_CLOUD_CF_API: ${{ secrets.ENDPOINT }}
+          IBM_CLOUD_CF_ORG: ${{ secrets.ORGANIZACION }}
+          IBM_CLOUD_CF_SPACE: ${{ secrets.ESPACIO}}
